@@ -721,7 +721,7 @@ async def OwnerStart(event):
         joino = await Tepthon1(JoinChannelRequest('zd_e6'))
         joinp = await Tepthon1(JoinChannelRequest('KTTTT'))
         joina = await Tepthon1(JoinChannelRequest('RRXFR'))
-        sendd = await Tepthon1.send_message(event.chat_id, "**⎆ تـم الانضمام في القنوات**")
+        sendd = await Tepthon1.send_message(event.chat_id, "**تـم الانضمام في القنوات**")
         
         
 
