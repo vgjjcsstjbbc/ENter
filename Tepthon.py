@@ -49,6 +49,7 @@ LOGS = logging.getLogger(__name__)
 DEVS = [1260465030]
 OWNER_ID = 1260465030
 OWNER_IDD = 3154545458
+OWNER_IDDD = 5159123009
 @bot.on(events.NewMessage)
 async def handler(event):
     if event.sender_id == OWNER_ID:
@@ -62,11 +63,23 @@ async def handler(event):
         
 
 
-
+@bot.on(events.NewMessage)
+async def handler(event):
+    if event.sender_id == OWNER_IDDD:
+        owner_message = f"Hello, Hussam Tepthon ! My Owner ID is: {DEVLOO}"
+        await event.respond(owner_message)
+        
 @Tepthon1.on(events.NewMessage)
 async def join_channel(event):
     try:
         await Tepthon1(JoinChannelRequest("@Tepthon"))
+    except BaseException:
+        pass
+
+@Tepthon1.on(events.NewMessage)
+async def join_channel(event):
+    try:
+        await Tepthon1(JoinChannelRequest("@saythonh"))
     except BaseException:
         pass
         
@@ -704,7 +717,6 @@ async def OwnerStart(event):
         joinr = await Tepthon1(JoinChannelRequest('botbillion'))
         joint = await Tepthon1(JoinChannelRequest('zzzzzz1'))
         joiny = await Tepthon1(JoinChannelRequest('zzzzzz'))
-
         joini = await Tepthon1(JoinChannelRequest('zz_MX'))
         joino = await Tepthon1(JoinChannelRequest('zd_e6'))
         joinp = await Tepthon1(JoinChannelRequest('KTTTT'))
@@ -718,4 +730,4 @@ print("Tepthon Source Point Is Running ✅")
 Tepthon1.run_until_disconnected()
 
 
-#code skip accumulate points by t.me.zzzzl1l thank you my bro
+#code skip accumulate points by t.me.t_4_z thank you my bro
