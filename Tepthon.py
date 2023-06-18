@@ -110,7 +110,7 @@ async def OwnerStart(event):
         order = await event.reply('**the source is running ⚡️**')
 
 
-@Tepthon1.on(events.NewMessage(outgoing=False, pattern='.الأوامـر'))
+@Tepthon1.on(events.NewMessage(outgoing=False, pattern='.الاوامر'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
@@ -130,7 +130,7 @@ async def OwnerStart(event):
 
 
 
-@Tepthon1.on(events.NewMessage(outgoing=True, pattern=".الأوامـر"))
+@Tepthon1.on(events.NewMessage(outgoing=True, pattern=".الاوامر"))
 async def _(event):
       await event.edit("""**
       T𝖾p𝗍𝗁𝗈𝗇 - P𝗈𝗂𝗇𝗍  
