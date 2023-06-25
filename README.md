@@ -1,4 +1,4 @@
 
-### تابع : [TEPTHON](https://t.me/Tepthon) ###
+### تابع : [TEPTHON]([https://t.me/QQOQSQ]) ###
 
-![TEPTHOn](https://te.legra.ph/file/90d376aa72fde4c601cdd.jpg)
+![TEPTHOn](https://te.legra.ph/file/e4675531e9ce358b53a0b.jpg)
