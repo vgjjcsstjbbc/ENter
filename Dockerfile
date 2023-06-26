@@ -7,4 +7,4 @@ RUN pip3 install -r requirements.txt
 
 COPY . .
 
-CMD [ "python3", "Tepthon.py"]
+CMD [ "python3", "tomesthon.py"]
